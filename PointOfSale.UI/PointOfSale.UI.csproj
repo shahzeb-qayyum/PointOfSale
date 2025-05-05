@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PointOfSale.DataAccessLayer\PointOfSale.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PointOfSale.Domain\PointOfSale.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
