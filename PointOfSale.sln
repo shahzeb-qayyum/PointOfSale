@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale.UI", "PointOfSale.UI\PointOfSale.UI.csproj", "{49062C80-D07F-48FB-BFCF-77602D38209E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale.DataAccessLayer", "PointOfSale.DataAccessLayer\PointOfSale.DataAccessLayer.csproj", "{13973C4F-A98F-4361-B065-D917454C56F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale.Domain", "PointOfSale.Domain\PointOfSale.Domain.csproj", "{386AD4A8-7CF3-438E-B1F2-5458197F4B18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{49062C80-D07F-48FB-BFCF-77602D38209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49062C80-D07F-48FB-BFCF-77602D38209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49062C80-D07F-48FB-BFCF-77602D38209E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13973C4F-A98F-4361-B065-D917454C56F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13973C4F-A98F-4361-B065-D917454C56F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13973C4F-A98F-4361-B065-D917454C56F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13973C4F-A98F-4361-B065-D917454C56F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386AD4A8-7CF3-438E-B1F2-5458197F4B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386AD4A8-7CF3-438E-B1F2-5458197F4B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386AD4A8-7CF3-438E-B1F2-5458197F4B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386AD4A8-7CF3-438E-B1F2-5458197F4B18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
